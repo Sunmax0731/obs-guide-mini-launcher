@@ -1,0 +1,18 @@
+{
+  "name": "obs-guide-mini-launcher",
+  "version": "0.1.0-alpha.1",
+  "private": false,
+  "type": "module",
+  "description": "操作ガイド・ミニランチャー closed alpha",
+  "scripts": {
+    "test": "node tests/product.test.mjs",
+    "validate": "node src/cli/index.js --input samples/representative-suite.json --output dist/obs-guide-mini-launcher-representative-report.json",
+    "build": "node scripts/build-docs-zip.mjs"
+  },
+  "keywords": [
+    "OBSStreaming",
+    "closed-alpha",
+    "qcds"
+  ],
+  "license": "MIT"
+}
